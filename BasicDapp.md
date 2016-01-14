@@ -1,6 +1,6 @@
 # Creating a Basic Dapp
 
-Moving on to our next tutorial, let's create our first dapp using **lisk-cli**, an automated tool for bootstrapping Lisks based decentralized applications.
+Moving on to our next tutorial, let's create our first dapp using **Lisk CLI**, an automated tool for bootstrapping Lisks based decentralized applications.
 
 #### GitHub Repository
 
@@ -81,7 +81,7 @@ Answering **yes** will set your dapp to automatically launch upon starting Lisks
 
 #### Example
 
-Below is an example of how to create a test dapp using **lisk-cli** with the corresponding output:
+Below is an example of how to create a test dapp using **Lisk CLI** with the corresponding output:
 
 ```sh
 ? Existing blockchain.db file will be replaced, are you sure? Yes
@@ -101,7 +101,7 @@ Updating config
 Done (DApp id is 16595324874141671114)
 ```
 
-Upon successful completion, the **lisk-cli** will return the dapp's unique id, in this case: **16595324874141671114**.
+Upon successful completion, the **Lisk CLI** will return the dapp's unique id, in this case: **16595324874141671114**.
 
 If you answered **Yes** to autolaunch the dapp, then you can launch it by starting Lisks, using the following command:
 

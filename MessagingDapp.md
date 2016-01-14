@@ -1,4 +1,4 @@
-## Creating a Messaging Dapp
+# Creating a Messaging Dapp
 
 In this tutorial we show how easy it is to create a Lisk based Messaging dapp.
 

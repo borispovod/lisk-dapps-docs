@@ -97,7 +97,7 @@ Please note, we don't recommend using "Binary" fields, as it will increase the a
 
 Lisk provides a fully fledged SQL API, which allows you interact with the information stored in your dapp's database.
 
-For further information, please read our [SQL API Documentation](http://sql-api.lisk.io/).
+For further information, please read our [SQL API Documentation](http://dapps-api.lisk.io/Sql.html).
 
 In summary, the following operations are supported:
 
@@ -276,4 +276,4 @@ fields: [{
 
 ## Further Documentation
 
-This tutorial only gives a brief overview of what can be accomplished using the SQL API. For more detailed information, please read our [json-sql](https://sql-api.lisk.io/) documentation.
+This tutorial only gives a brief overview of what can be accomplished using the SQL API. For more detailed information, please read our [json-sql](https://github.com/LiskHQ/json-sql/tree/master/docs) documentation.

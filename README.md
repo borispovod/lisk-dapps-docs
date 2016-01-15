@@ -105,7 +105,7 @@ When making a withdrawal from a dapp. Another special type of transaction is bro
 
 Lisk Dapps interact with the main Lisk blockchain using an easy to use API.
 
-A detailed reference of this API can be found in our [Lisk Dapps API Documentation](http://dapp-api.lisk.io).
+A detailed reference of this API can be found in our [Lisk Dapps API Documentation](http://dapps-api.lisk.io).
 
 ## Further Help
 

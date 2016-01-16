@@ -8,7 +8,7 @@ Lisk is a decentralized application platform and crypto-currency, which offers a
 
 ## Lisk Dapps
 
-Lisk Dapps are blockchain based applications which operate on their own custom sidechain. Allowing developers to create decentralized applications which use XCR or BTC as an internal currency / token.
+Lisk Dapps are blockchain based applications which operate on their own custom sidechain. Allowing developers to create decentralized applications which use LISK or BTC as an internal currency / token.
 
 Each Dapp has its own unique private sidechain which operates in synchronization with the Lisk block time and current block height.
 
@@ -20,15 +20,15 @@ The signing of blocks by a master node against a given Dapp is restricted by the
 
 Sidechain consensus is maintained among the 101 master nodes using the same Delegated Proof-of-Stake (DPOS) method used to secure the Lisk blockchain. This allows individual master nodes to collect fees from each transaction as reward for securing the Dapp's sidechain.
 
-Users can move tokens (XCR or BTC) in and out of a dapp by making deposits or withdrawals to and from each dapp.
+Users can move tokens (LISK or BTC) in and out of a dapp by making deposits or withdrawals to and from each dapp.
 
-Deposits and withdrawals are special Lisk based transactions that move your XCR funds from the main Lisk maincain to the sidechain, thus allowing its use within the dapp.
+Deposits and withdrawals are special Lisk based transactions that move your LISK funds from the main Lisk maincain to the sidechain, thus allowing its use within the dapp.
 
 Some example use cases:
 
   * **Messaging Dapp** - Users send messages via a messaging dapp and pay transaction fees for each message sent to the dapp owner.
   * **Decentralized Exchange** - Users deposit funds into a decentralized exchange dapp and pay order fees to the dapp owner.
-  * **Decentralized Torrent Tracker** - Users post new torrents files to a torrent tracking dapp and receive XCR as "thanks" for sharing the file.
+  * **Decentralized Torrent Tracker** - Users post new torrents files to a torrent tracking dapp and receive LISK as "thanks" for sharing the file.
 
 ## Development
 

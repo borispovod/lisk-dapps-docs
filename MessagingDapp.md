@@ -125,7 +125,7 @@ Message.prototype.create = function (data, trs) {
 }
 ```
 
-Next, we set a transaction fee for each time a user sends a message, for example, 1 XCR:
+Next, we set a transaction fee for each time a user sends a message, for example, 1 LISK:
 
 ```js
 Message.prototype.calculateFee = function (trs) {

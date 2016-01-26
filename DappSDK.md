@@ -6,7 +6,7 @@ When you generate a dapp using **Lisk CLI** it clones the latest version of the 
 
 In this tutorial, we will describe how to use the SDK.
 
-First, clone our [repository](https://github.com/LiskHQ/lisk-dapps-sdk) or just create a new dapp using **Lisk CLI**.
+First, clone our [repository](https://github.com/LiskHQ/lisk-dapps-sdk) or just create a new dapp using [Lisk CLI](https://github.com/LiskHQ/lisk-cli).
 
 ### Directory Structure
 
@@ -129,7 +129,7 @@ This file contains important details about your dapp's genesis block. This file 
 
 This file contains your dapp's SQL database schema definition.
 
-For more information on defining custom blockchains, please read our [sidechain](Sidechain.md) tutorial.
+For more information on defining custom blockchains, please read our [sidechain](/documentation?i=lisk-dapps-docs/Sidechain) tutorial.
 
 ### Modules
 

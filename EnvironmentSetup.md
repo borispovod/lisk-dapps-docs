@@ -18,19 +18,19 @@ Please ensure the below requirements are met before continuing.
 
   1. Install the Homebrew package manager.
 
-    ```
+    ```text
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     ```
 
   2. Install **nodejs** (package also includes **npm**).
 
-    ```
+    ```text
     brew install homebrew/versions/node012
     ```
 
   3. Install **sqlite**, **git** and **wget**.
 
-    ```
+    ```text
     brew install sqlite git wget
     brew link sqlite --force
     ```
@@ -43,19 +43,19 @@ Open a command prompt and proceed with the following:
 
 1. Install **sqlite** and **git** plus some build essentials.
 
-  ```
+  ```text
   sudo apt-get install sqlite3 git build-essential curl wget unzip
   ```
 
 2. Add the NodeSource package repository to your system.
 
-  ```
+  ```text
   curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
   ```
 
 3. Install **nodejs** (package also includes **npm**).
 
-  ```
+  ```text
   sudo apt-get install -y nodejs
   ```
 
@@ -71,23 +71,23 @@ Currently we only support development on Mac OS X and Linux operating systems. I
 
 2. Open a command prompt. Then make a directory to store your environment.
 
-  ```sh
+  ```text
   mkdir lisk
   cd lisk
   ```
 
 3. Initialize a new Ubuntu based virtual machine using vagrant:
 
-  ```sh
+  ```text
   vagrant init ubuntu/trusty64
   ```
 
 4. Open and edit the file named `Vagrantfile` as follows:
 
-  ```
+  ```ruby
   Vagrant.configure(2) do |config|
     config.vm.box = "ubuntu/trusty64"
-    config.vm.network "forwarded_port", guest: 7040, host: 7040
+    config.vm.network "forwarded_port", guest: 7000, host: 7000
 
     config.vm.provider "virtualbox" do |vb|
       vb.memory = "1024"
@@ -97,7 +97,7 @@ Currently we only support development on Mac OS X and Linux operating systems. I
 
 5. Boot up the virtual machine and let it install:
 
- ```
+ ```text
  vagrant up
  ```
 
@@ -105,7 +105,7 @@ Currently we only support development on Mac OS X and Linux operating systems. I
 
 6. Verify the status of the virtual machine using the following command:
 
-  ```sh
+  ```text
   vagrant status
   ```
 
@@ -124,25 +124,25 @@ Currently we only support development on Mac OS X and Linux operating systems. I
 
   1. Install **sqlite** and **git** plus some build essentials.
 
-    ```
+    ```text
     sudo apt-get install sqlite3 git build-essential curl wget unzip
     ```
 
   2. Add the NodeSource package repository to your system.
 
-    ```
+    ```text
     curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
     ```
 
   3. Install **nodejs** (package also includes **npm**).
 
-    ```
+    ```text
     sudo apt-get install -y nodejs
     ```
 
 9. Your virtual machine environment should now be ready.
 
-By default, Vagrant synchronizes your project directory between the local machine and client VM. For example, the contents of ```C:\Users\User\lisk``` are accessible as ```/vagrant``` on the client VM and vice versa.
+By default, Vagrant synchronizes your project directory between the local machine and client VM. For example, the contents of `C:\Users\User\lisk` are accessible as `/vagrant` on the client VM and vice versa.
 
 For further information about using vagrant, please read the [official vagrant documentation](https://docs.vagrantup.com/v2/).
 
@@ -163,7 +163,7 @@ To start work on our dapp, we first need to install a **testnet** version of Lis
 
 On **Mac OS X** operating systems:
 
-```sh
+```text
 wget http://downloads.lisk.io/lisk/test/lisk-0.1.0-Darwin-x86_64.zip
 unzip lisk-0.1.0-Darwin-x86_64.zip
 cd lisk-0.1.0-Darwin-x86_64
@@ -174,7 +174,7 @@ On **Linux** operating systems (or vagrant):
 
 **TIP:** If using vagrant, it is a good idea to change to the shared: `/vagrant` directory as described above. This way, you can easily access your dapp's files from within the host operating system.
 
-```sh
+```text
 wget http://downloads.lisk.io/lisk/test/lisk-0.1.0-Linux-x86_64.zip
 unzip lisk-0.1.0-Linux-x86_64.zip
 cd lisk-0.1.0-Linux-x86_64
@@ -183,7 +183,7 @@ npm install --production
 
 Then launch Lisk and verify our base testnet is working correctly:
 
-```sh
+```text
 node app.js
 ```
 
@@ -193,19 +193,19 @@ If successful, Lisk will launch and connect to the base testnet network.
 
 Now let's install **Lisk CLI** and finally start work on our first dapp:
 
-```sh
+```text
 sudo npm install -g lisk-cli
 ```
 
 After installation completes, check that **Lisk CLI** is installed correctly:
 
-```sh
+```text
 lisked-cli -h
 ```
 
 If successful **Lisk CLI** should yield the following output:
 
-```
+```text
 Usage: lisk-cli [options] [command]
 
 Commands:
@@ -220,4 +220,4 @@ Options:
     -V, --version  output the version number
 ```
 
-Congratulations! We are now ready to create our first dapp! Let's continue with the [next tutorial](BasicDapp.md).
+Congratulations! We are now ready to create our first dapp! Let's continue with the [next tutorial](/documentation?i=lisk-dapps-docs/BasicDapp).

@@ -2,13 +2,13 @@
 
 In this tutorial, we give an overview on how to handle multiple contracts within a dapp and make relationships between them.
 
-We will therefore make a decentalized version of "Reddit" as an example. It won't be a full rendition of "Reddit" itself, but rather, a small part of its functionality, containing a message board with posts, comments and likes.
+We will therefore make a decentralized version of "Reddit" as an example. It won't be a full rendition of "Reddit" itself, but rather, a small part of its functionality, containing a message board with posts, comments and likes.
 
-Before proceeding, we strongly recommend reading our [Messaging Dapp Tutorial](/MessagingDapp.md), which gives a more thorough introduction on how contracts are put together.
+Before proceeding, we strongly recommend reading our [Messaging Dapp Tutorial](/documentation?i=lisk-dapps-docs/MessagingDapp), which gives a more thorough introduction on how contracts are put together.
 
 ## Contracts
 
-So, let's begin by outlining the structure of our "Reddit" dapp, consisiting of three contracts, each representing a user action:
+So, let's begin by outlining the structure of our "Reddit" dapp, consisting of three contracts, each representing a user action:
 
 * **Post.js** - A contract for managing posts.
 * **Comment.js** - A contract for managing comments.
@@ -30,7 +30,7 @@ With the above fee structure, authors can earn lisk from each post they create, 
 
 The Post contract is a simple contract allowing users to create posts for a 0.1 lisk fee (10000000). Each post consists of a title (of up to 100 characters) and the text of the post (with up to 5000 characters).
 
-The source code for this contract can be found [here](https://github.com/LiskHQ/lisk-redditdapp/blob/master/modules/contracts/Post.js).
+The source code for this contract can be found [here](https://github.com/LiskHQ/lisk-reddit-dapp/blob/master/modules/contracts/Post.js).
 
 ## Comment Contract
 
@@ -91,7 +91,7 @@ The first of which is the transaction id that our **postId** refers to. The seco
 
 With the full implementation of this contract in place, we should now be able to an make an API call that will return comments for a given **postId**.
 
-The complete source code for this contract can be found [here](https://github.com/LiskHQ/lisk-redditdapp/blob/master/modules/contracts/Comment.js).
+The complete source code for this contract can be found [here](https://github.com/LiskHQ/lisk-reddit-dapp/blob/master/modules/contracts/Comment.js).
 
 ## Like Contract
 
@@ -172,6 +172,6 @@ Like.prototype.apply = function (trs, sender, cb, scope) {
 - The same logic, but instead affecting unconfirmed balances is defined as `applyUnconfirmed`.
 - The reverse of the above function is defined as `undo` and `undoUnconfirmed`.
 
-The complete source code for this contract can be found [here](https://github.com/LiskHQ/lisk-redditdapp/blob/master/modules/contracts/Like.js).
+The complete source code for this contract can be found [here](https://github.com/LiskHQ/lisk-reddit-dapp/blob/master/modules/contracts/Like.js).
 
-This completes our tutorial on how to handle multiple contracts within a dapp. The source code for this tutorial is available [here](https://github.com/LiskHQ/lisk-redditdapp).
+This completes our tutorial on how to handle multiple contracts within a dapp. The source code for this tutorial is available [here](https://github.com/LiskHQ/lisk-reddit-dapp).

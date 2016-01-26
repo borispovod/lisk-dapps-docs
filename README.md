@@ -47,14 +47,14 @@ If you are just starting out, then before progressing any further. We strongly s
 
 For more information on how to proceed with developing your first Lisk based dapp. Please read the following tutorials:
 
-* [Setting up an Environment](EnvironmentSetup.md)
-* [Creating a Basic Dapp](BasicDapp.md)
-* [Creating a Messaging Dapp](MessagingDapp.md)
-* [Adding a User Interface](UserInterface.md)
-* [Introducing the Dapp SDK](DappSDK.md)
-* [Creating a Custom Sidechain](Sidechain.md)
-* [Creating a Reddit Dapp](RedditDapp.md)
-* [Debugging Dapps](DebuggingDapps.md)
+* [Setting up an Environment](/documentation?i=lisk-dapps-docs/EnvironmentSetup)
+* [Creating a Basic Dapp](/documentation?i=lisk-dapps-docs/BasicDapp)
+* [Creating a Messaging Dapp](/documentation?i=lisk-dapps-docs/MessagingDapp)
+* [Adding a User Interface](/documentation?i=lisk-dapps-docs/UserInterface)
+* [Introducing the Dapp SDK](/documentation?i=lisk-dapps-docs/DappSDK)
+* [Creating a Custom Sidechain](/documentation?i=lisk-dapps-docs/Sidechain)
+* [Creating a Reddit Dapp](/documentation?i=lisk-dapps-docs/RedditDapp)
+* [Debugging Dapps](/documentation?i=lisk-dapps-docs/DebuggingDapps)
 
 ## Sandboxing
 
@@ -111,7 +111,7 @@ A detailed reference of this API can be found in our [Lisk Dapps API Documentati
 
 The Lisk Foundation is ready and waiting to answer your questions.
 
-Please feel free to join our chat at: [Lisk.Chat](https://chat.lisk.io), where you will find us ready and waiting to answer any questions you may need answered as quickly as possible.
+Please feel free to join our chat at: [Lisk.Chat](https://lisk.chat), where you will find us ready and waiting to answer any questions you may need answered as quickly as possible.
 
 Thank you for making Lisk your decentralized application platform of choice.
 

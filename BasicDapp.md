@@ -2,7 +2,7 @@
 
 Moving on to our next tutorial, let's create our first dapp using **Lisk CLI**, an automated tool for bootstrapping Lisks based decentralized applications.
 
-#### GitHub Repository
+## GitHub Repository
 
 Before we start, we first need to create a repository to store our dapp's source code.
 
@@ -10,7 +10,7 @@ Before we start, we first need to create a repository to store our dapp's source
 
 The repository can be **public** or **private**, depending on your preference.
 
-#### Unique Genesis Block
+## Unique Genesis Block
 
 Once we have created our GitHub repository, we can proceed to make a new unique genesis block, which we will use to test our dapp. To do so, open a command prompt then proceed with the following:
 
@@ -79,7 +79,7 @@ Separate each public key with a comma like so: `key1,key2,key3`
 
 Answering **yes** will set your dapp to automatically launch upon starting Lisks.
 
-#### Example
+### Example
 
 Below is an example of how to create a test dapp using **Lisk CLI** with the corresponding output:
 
